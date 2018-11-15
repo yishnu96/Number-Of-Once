@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "F:/Semester Project/8085/mICRO/onse.xst" -ofn "F:/Semester Project/8085/mICRO/onse.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim onse.ngc onse_synthesis.v 
+xst -intstyle ise -ifn "F:/Semester Project/8085/mICRO/onse.xst" -ofn "F:/Semester Project/8085/mICRO/onse.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim onse.ngc onse_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-2 "onse.ngc" onse.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o onse_map.ncd onse.ngd onse.pcf 
+par -w -intstyle ise -ol high -mt off onse_map.ncd onse.ncd onse.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml onse.twx onse.ncd -o onse.twr onse.pcf 
+xst -intstyle ise -ifn "F:/Semester Project/8085/mICRO/onse.xst" -ofn "F:/Semester Project/8085/mICRO/onse.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-2 "onse.ngc" onse.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o onse_map.ncd onse.ngd onse.pcf 
+par -w -intstyle ise -ol high -mt off onse_map.ncd onse.ncd onse.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml onse.twx onse.ncd -o onse.twr onse.pcf 
+bitgen -intstyle ise -f onse.ut onse.ncd 
+bitgen -intstyle ise -f onse.ut onse.ncd 
+vhdtdtfi -prj mICRO -o "F:/Semester Project/8085/mICRO/onse.tfi" -module onse -template C:/Xilinx/14.3/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work onse.vhd 
+vhdtdtfi -lib work onse.vhd -prj mICRO -o onse.spl -module onse -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 onse.spl {F:/Semester Project/8085/mICRO/onse.sym} 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim onse.ngc onse_synthesis.v 
+bitgen -intstyle ise -f onse.ut onse.ncd 
+pin2ucf -o onse_locked.ucf onse.ncd 

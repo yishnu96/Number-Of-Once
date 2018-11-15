@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\Semester Project\8085\mICRO\onse.ncd
+OUTFILE=F:\Semester Project\8085\mICRO\onse.bit
+FAMILY=Virtex5
+PART=xc5vlx20t-2ff323
+WORKINGDIR=F:\Semester Project\8085\mICRO
+LICENSE=WebPack
+USER_INFO=__0_0_0

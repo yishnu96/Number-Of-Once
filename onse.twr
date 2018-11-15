@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml onse.twx onse.ncd -o onse.twr onse.pcf
+
+Design file:              onse.ncd
+Physical constraint file: onse.pcf
+Device,package,speed:     xc5vlx20t,ff323,-2 (PRODUCTION 1.73 2012-10-12, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock I<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A<0>        |    5.589(F)|A_mux0003<0>      |   0.000|
+A<1>        |    5.600(F)|A_mux0003<0>      |   0.000|
+A<2>        |    5.686(F)|A_mux0003<0>      |   0.000|
+A<3>        |    5.682(F)|A_mux0003<0>      |   0.000|
+------------+------------+------------------+--------+
+
+Clock I<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A<0>        |    5.576(F)|A_mux0003<0>      |   0.000|
+A<1>        |    5.587(F)|A_mux0003<0>      |   0.000|
+A<2>        |    5.673(F)|A_mux0003<0>      |   0.000|
+A<3>        |    5.669(F)|A_mux0003<0>      |   0.000|
+------------+------------+------------------+--------+
+
+Clock I<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A<0>        |    5.991(F)|A_mux0003<0>      |   0.000|
+A<1>        |    6.002(F)|A_mux0003<0>      |   0.000|
+A<2>        |    6.088(F)|A_mux0003<0>      |   0.000|
+A<3>        |    6.084(F)|A_mux0003<0>      |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock I<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+I<0>           |         |         |    0.100|    0.100|
+I<1>           |         |         |    0.083|    0.083|
+I<2>           |         |         |    0.518|    0.518|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+I<0>           |         |         |    0.112|    0.112|
+I<1>           |         |         |    0.095|    0.095|
+I<2>           |         |         |    0.530|    0.530|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+I<0>           |         |         |   -0.266|   -0.266|
+I<1>           |         |         |   -0.283|   -0.283|
+I<2>           |         |         |    0.152|    0.152|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Nov 15 01:19:27 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 233 MB
+
+
+

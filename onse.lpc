@@ -1,0 +1,17 @@
+# onse.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Thu Nov 15 01:34:02 2018
+#The following constraints were newly added
+NET "A<0>" LOC = R1;
+NET "A<1>" LOC = T1;
+NET "A<2>" LOC = V1;
+NET "A<3>" LOC = U1;
+NET "I<0>" LOC = P2;
+NET "I<1>" LOC = P3;
+NET "I<2>" LOC = V2;

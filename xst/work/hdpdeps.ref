@@ -1,0 +1,10 @@
+V3 6
+FL "F:/Semester Project/8085/mICRO/once.vhd" 2018/11/15.00:44:20 P.40xd
+EN work/once 0 FL "F:/Semester Project/8085/mICRO/once.vhd" PB ieee/std_logic_1164 1350103243
+AR work/once/Behavioral 0 \
+      FL "F:/Semester Project/8085/mICRO/once.vhd" EN work/once 0
+FL "F:/Semester Project/8085/mICRO/onse.vhd" 2018/11/15.01:07:43 P.40xd
+EN work/onse 1542224910 FL "F:/Semester Project/8085/mICRO/onse.vhd" \
+      PB ieee/std_logic_1164 1350103243
+AR work/onse/Behavioral 1542224911 \
+      FL "F:/Semester Project/8085/mICRO/onse.vhd" EN work/onse 1542224910

@@ -1,0 +1,10 @@
+Running: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o F:/Semester Project/8085/mICRO/test_isim_beh.exe -prj F:/Semester Project/8085/mICRO/test_beh.prj work.test 
+ISim P.40xd (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/Semester Project/8085/mICRO/onse.vhd" into library work
+Parsing VHDL file "F:/Semester Project/8085/mICRO/test.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:410 - "F:/Semester Project/8085/mICRO/test.vhd" Line 72: Expression has 3 elements ; expected 4
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit test in library work failed

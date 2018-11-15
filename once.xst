@@ -1,0 +1,5 @@
+set -tmpdir "F:/Semester Project/8085/mICRO/xst/projnav.tmp"
+set -xsthdpdir "F:/Semester Project/8085/mICRO/xst"
+elaborate
+-ifn once.prj
+-ifmt mixed

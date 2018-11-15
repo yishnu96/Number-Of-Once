@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="5">
+<DesignStatistics TimeStamp="Thu Nov 15 01:29:41 2018"><group name="NetStatistics">
+<item name="NumNets_Active" rev="5">
+<attrib name="value" value="18"/></item>
+<item name="NumNets_Vcc" rev="5">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_BOUNCEIN" rev="5">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Active_CLKPIN" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="5">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="5">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_IOBIN2OUT" rev="5">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_IOBINPUT" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="5">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Active_OUTBOUND" rev="5">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_PADINPUT" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_PADOUTPUT" rev="5">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_PINBOUNCE" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_PINFEED" rev="5">
+<attrib name="value" value="14"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Vcc_KVCCOUT" rev="5">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_PINFEED" rev="5">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="2">
+<attrib name="value" value="7"/></item>
+<item name="AGG_IO" rev="2">
+<attrib name="value" value="7"/></item>
+<item name="AGG_SLICE" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NUM_BONDED_IOB" rev="2">
+<attrib name="value" value="7"/></item>
+<item name="NUM_BSLUTONLY" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NUM_BSUSED" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NUM_IOB_LATCH" rev="2">
+<attrib name="value" value="4"/></item>
+<item name="NUM_LOGIC_O5ANDO6" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NUM_OLOGIC" rev="2">
+<attrib name="value" value="4"/></item>
+<item name="NUM_SLICEL" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NUM_SLICE_CYINIT" rev="2">
+<attrib name="value" value="4"/></item>
+<item name="NUM_SLICE_UNUSEDCTRL" rev="2">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-IOBM" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="IOB-IOBS" rev="5">
+<attrib name="value" value="3"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Thu Nov 15 01:29:41 2018"><group name="SiteSummary">
+<item name="IOB" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="7"/></item>
+<item name="IOB_INBUF" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="3"/></item>
+<item name="IOB_OUTBUF" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IOB_PAD" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="7"/></item>
+<item name="OLOGIC" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="OLOGIC_OUTFF" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="SLICEL" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="SLICEL_A5LUT" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="SLICEL_A6LUT" rev="5">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Thu Nov 15 01:29:41 2018"><group name="OLOGIC_OUTFF">
+<item name="CK" rev="5">
+<attrib name="CK" value="0"/><attrib name="CK_INV" value="4"/></item>
+<item name="D1" rev="5">
+<attrib name="D1" value="4"/><attrib name="D1_INV" value="0"/></item>
+<item name="INIT_OQ" rev="5">
+<attrib name="0" value="4"/></item>
+<item name="OUTFFTYPE" rev="5">
+<attrib name="LATCH" value="4"/></item>
+</group>
+<group name="OLOGIC">
+<item name="CLK" rev="5">
+<attrib name="CLK" value="0"/><attrib name="CLK_INV" value="4"/></item>
+<item name="D1" rev="5">
+<attrib name="D1" value="4"/><attrib name="D1_INV" value="0"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Thu Nov 15 01:29:41 2018"><group name="SLICEL">
+<item name="A" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A3" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A4" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A5" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A6" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="AMUX" rev="5">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="OUT" rev="5">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SLICEL_A6LUT">
+<item name="A3" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A4" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A5" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A6" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="O6" rev="5">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB_INBUF">
+<item name="OUT" rev="5">
+<attrib name="value" value="3"/></item>
+<item name="PAD" rev="5">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="SLICEL_A5LUT">
+<item name="A3" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A4" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="A5" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="O5" rev="5">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="OLOGIC_OUTFF">
+<item name="CK" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="D1" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="Q" rev="5">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="5">
+<attrib name="value" value="7"/></item>
+</group>
+<group name="IOB">
+<item name="I" rev="5">
+<attrib name="value" value="3"/></item>
+<item name="O" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="PAD" rev="5">
+<attrib name="value" value="7"/></item>
+</group>
+<group name="OLOGIC">
+<item name="CLK" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="D1" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="OQ" rev="5">
+<attrib name="value" value="4"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

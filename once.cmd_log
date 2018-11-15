@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/Semester Project/8085/mICRO/once.xst" -ofn "F:/Semester Project/8085/mICRO/once.syr" 
+xst -intstyle ise -ifn "F:/Semester Project/8085/mICRO/once.xst" -ofn "F:/Semester Project/8085/mICRO/once.syr" 
